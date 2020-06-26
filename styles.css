@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: sans-serif;
+}
+
+#title {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+#description {
+    margin-top: 5px;
+    font-size: 26px;
+}
+
+#svg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tooltip {
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+
+.county:hover {
+    stroke-width: 1;
+    stroke: black;
+    opacity: 1;
+}
+
+#source {
+    margin-top: 2px;
+}
+
+#legend {
+    position: absolute;
+    top: 220px;
+    left: 720px;
+}
+
+.states {
+    fill: none;
+    stroke: white;
+    stroke-width: 1;
+}
