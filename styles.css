@@ -19,6 +19,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 #tooltip {
@@ -43,8 +44,8 @@ main {
 
 #legend {
     position: absolute;
-    top: 220px;
-    left: 720px;
+    top: 60px;
+    left: 625px;
 }
 
 .states {

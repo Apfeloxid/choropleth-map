@@ -29,7 +29,7 @@ function drawMap(dataEducation, dataCounties) {
     let path = d3.geoPath();
     
     const svg = d3.select("#svg-container").append("svg").attr("height", h).attr("width", w).style("fill", "navy");
-    const legendSvg = d3.select("#legend").attr("height", legendRectHeight + 400).attr("width", legendRectWidth * colorScheme);
+    const legendSvg = d3.select("#legend").attr("height", legendRectHeight + 20).attr("width", legendRectWidth * colorScheme.length);
     const tooltip = d3.select("#tooltip");
 
     console.log(dataEducation);
